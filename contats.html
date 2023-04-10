@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="base-cont.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="./principal/principal.html" class="about" target="_blank" >Página Inicial</a></li>
+                <li><a href="./about.html" class="contact" target="_blank" >Sobre a clínica</a></li>
+                <li><a href="./atendimento.html" class="atendimento" target="_blank" >Horário de Atendimento</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div class="header2"><img src="./Imagens/telefone.png" alt="" class="telefone"></div>
+            </div>
+    
+            <div class="content">
+                <div id="titulo">CLÍNICA <br> VETERINÁRIA</div>
+                <div id="descrição">
+                    Para entrar em contato com a clínica ligue: <br>
+                    Telefone: (41) 3333-3333 <br>
+                    Whatsapp: (41) 99999-9999 <br>
+
+                    Endereço: R. Antônio Costa, 10 - Vista Alegre, Curitiba - PR, 80820-020.
+
+              </div>
+              <div id="maps">
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.327921244052!2d-49.26682688448677!3d-25.430940583766823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5f1d5c5b091%3A0xd8c7b2fcf880a120!2sR.%20Antonio%20Costa%2C%2010%20-%20Vista%20Alegre%2C%20Curitiba%20-%20PR%2C%2080820-020!5e0!3m2!1sen!2sbr!4v1650023411353!5m2!1sen!2sbr" 
+                frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div id="form">
+            <h1>Entre em Contato</h1>
+                <form id="formulário" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea><br>
+
+                <button id="enviar" type="submit">Enviar</button>
+                <button id="limpar" type="reset">Limpar</button>
+            </div>
+    
+            <div class="footer">
+                <div class="informations">
+                Ligações: (41) 3333-3333 <br>
+                Whatsapp: (41) 99999-9999 <br>
+                E-mail para contato: santavirginiaveterinaria@gmail.com
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
